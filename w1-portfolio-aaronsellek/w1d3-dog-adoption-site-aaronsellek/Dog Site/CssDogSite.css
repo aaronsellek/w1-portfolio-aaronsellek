@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+h1 {
+    color: white;
+    background-color: #00377B;
+    padding: 50px;
+    border-bottom: 3px solid #7BDEF4;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Grey {
+    background-color: #F1EDEE;
+    flex-flow: nowrap;
+    align-content: flex-start;
+  
+}
+
+.All { 
+
+width: 500px;
+justify-content: space-between;
+display: flex; 
+}
+
+
+.Bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start ;
+    
+}
+.Middle{
+    max-width: 1200px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+
+.Bubbles {
+    background-color: #7BDEF4;
+    padding: 4px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: .9rem;
+    list-style: none;
+    margin: 2px auto 2px auto;
+
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.Dog {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    max-width: 32%;
+    align-items: flex-start;    
+}
+h2 {
+        color: white;
+        background-color: #00377B;
+        padding: 50px;
+        border-bottom: 3px solid #7BDEF4;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.Pic1 {
+    height:250px;
+    background: url("starter_files/images/donate.jpg");
+    background-size: cover;
+    width:700px;
+    height:280px;
+    background: linear-gradient(rgba(128, 130, 235, 0.45), 
+    rgba(128, 130, 235, 0.45)),
+    no-repeat center/cover url("starter_files/images/donate.jpg");
+}
+.Pic2 {
+    height:250px;
+    background: url("starter_files/images/volunteer.jpg");
+    background-size: cover;
+    width:700px;
+    height:280px;
+    background: linear-gradient(rgba(128, 130, 235, 0.45), 
+    rgba(128, 130, 235, 0.45)),
+    no-repeat center/cover url("starter_files/images/volunteer.jpg");
+}
+.Pic3 {
+    height:250px;
+    background: url("starter_files/images/location.png");
+    background-size: cover;
+    width:700px;
+    height:280px;
+    background: linear-gradient(rgba(128, 130, 235, 0.45), 
+    rgba(128, 130, 235, 0.45)),
+    no-repeat center/cover url("starter_files/images/location.png");
+}
+.Bottom-text {
+    position:relative;
+    line-height:250px;
+    width:1200px;
+    font-family: "Oswald";
+    color:#FFFFFF;
+    font-size:40px;
+    text-align: center;
+    vertical-align: middle;
+    margin:40px;
+    padding-left: 70px;
+    padding-top: 10px;
+    height: 20rem;
+    width: 33%;
+    margin: 0;
+    color: white;
+    font-family: Oswald;
+    font-weight: lighter;
+    font-size: 50px;}
+
+   
